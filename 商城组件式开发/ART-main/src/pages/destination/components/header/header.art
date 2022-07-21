@@ -1,0 +1,5 @@
+<div class="header">
+  <h1 class="header-title">目的地</h1>
+  <% include('../../../../components/searchbox/searchbox.art', {placeholder:
+  '搜索你想去的国家'}) %>
+</div>

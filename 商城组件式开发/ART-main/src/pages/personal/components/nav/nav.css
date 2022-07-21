@@ -1,0 +1,27 @@
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-top: 20.5px;
+}
+
+.nav-item {
+  /* 100% / 4 */
+  width: 25%;
+  margin-bottom: 20.5px;
+}
+
+.nav-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #999;
+  font-size: 12px;
+}
+
+.nav-img {
+  /* 44px / 375/4=93.75px*/
+  width: 46.933333%;
+  margin-bottom: 5.5px;
+}

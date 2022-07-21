@@ -1,0 +1,3 @@
+<div class="header">
+  {{include '../../../../components/searchbox/searchbox.art'}}
+</div>

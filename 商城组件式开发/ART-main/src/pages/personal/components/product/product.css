@@ -1,0 +1,50 @@
+.product {
+  padding: 20px 20px 0 0;
+}
+
+.product-title {
+  width: 100%;
+  padding: 0 0 10px 20px;
+  color: #191919;
+  font-size: 16px;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-item {
+  width: 50%;
+  padding: 0 0 13px 20px;
+}
+
+.product-pic {
+  margin-bottom: 6px;
+}
+
+.product-img {
+  width: 100%;
+}
+
+.product-name {
+  height: 40px;
+  line-height: 20px;
+  margin-bottom: 4px;
+  color: #333;
+  font-size: 14px;
+
+  /* 多行文字省略 */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  white-space: normal !important;
+  word-wrap: break-word;
+}
+
+.product-price {
+  color: #e93b3b;
+  font-size: 14px;
+}

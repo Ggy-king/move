@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>慕云游商城--首页</title>
+</head>
+
+<body>
+    <div id="index-page" class="index-layout">
+        <!-- 头部 -->
+        <header class="header-layout">
+            {{include './components/header/header.art'}}
+        </header>
+
+        <!-- 幻灯片 -->
+        <div id="index-slider" class="slider-layout">
+            {{include '../../components/loading/loading.art'}}
+        </div>
+
+        <!-- 导航 -->
+        <nav id="index-nav" class="nav-layout">
+            {{include '../../components/loading/loading.art'}}
+        </nav>
+
+        <!-- 精选折扣 -->
+        <div id="index-product" class="product-layout">
+            {{include './components/product/product.art'}}
+        </div>
+
+        <!-- 标签栏 -->
+        <div class="tabbar-layout">
+            <% include('../../components/tabbar/tabbar.art', { active: 'personal' }) %>
+        </div>
+
+        <!-- 返回顶部 -->
+        <div class="backtop-layout">
+            {{include '../../components/backtop/backtop.art'}}
+        </div>
+    </div>
+</body>
+
+</html>
