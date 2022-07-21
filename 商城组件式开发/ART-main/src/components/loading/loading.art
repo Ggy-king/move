@@ -1,0 +1,6 @@
+<div class="loading {{ inline ? 'loading-inline' : '' }}">
+  <div class="loading-indicator">
+    <img src="./loading.gif" alt="loading" />
+  </div>
+  <div class="loading-text">{{ text ? text : '加载中...' }}</div>
+</div>

@@ -1,0 +1,69 @@
+@font-face {
+  font-family: 'PingFangSCRegular';
+  src: url('../fonts/PingFangSCRegular.ttf') format('truetype');
+}
+
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+hr,
+a,
+em,
+img,
+strong,
+b,
+u,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+form,
+input,
+button,
+tr,
+th,
+td,
+footer,
+header,
+nav {
+  box-sizing: border-box;
+
+  padding: 0;
+  margin: 0;
+
+  border: none;
+  outline: none;
+
+  font-family: 'PingFangSCRegular';
+}
+
+i,
+em {
+  font-style: normal;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+img {
+  /* display: block; */
+  vertical-align: top;
+}
